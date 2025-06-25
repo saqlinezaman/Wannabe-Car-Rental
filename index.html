@@ -64,16 +64,55 @@
              <!-- banner start -->
             <div class="px-5 bg-blue-600 rounded-3xl md:px-12 justify-around md:flex">
                 <!-- bannar text start -->
-                <div class="py-20 md:py-32 md:w-1/2">
+                <div class="my-4  md:w-1/2 md:my-40">
                     <h1 class="text-5xl md:text-6xl text-white font-semibold ">Experience the road like never before</h1>
                     <p class="text-white text-lg font-light mt-8 md:w-4/6">Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper</p>
                     <button class="btn btn-warning mt-6 text-white">View All Cars</button>
                 </div>
                 <!-- banner text end -->
                  <!-- form -->
-                <div class="bg-white w-2/6 my-16 flex justify-center rounded-2xl">
-                    <form action="">
-                        <h1>Book </h1>
+                <div class="bg-white md:w-2/6 my-16  justify-center rounded-2xl px-12">
+                    <h1 class="mt-8 text-3xl font-semibold text-center">Book your car</h1>
+                    <form action="" class="mt-5 mb-7 space-y-3">
+                        <label class="form-control w-full max-w-xs">
+                            <select class="select  bg-gray-100 font-semibold">
+                                <option disabled selected>Car type</option>
+                                <option>Star Wars</option>
+                                <option>Harry Potter</option>
+                                <option>Lord of the Rings</option>
+                                <option>Planet of the Apes</option>
+                                <option>Star Trek</option>
+                            </select>
+                        </label>
+                        <label class="form-control w-full max-w-xs">
+                            <select class="select  bg-gray-100 font-semibold">
+                                <option disabled selected class="">Place of rental</option>
+                                <option>Star Wars</option>
+                                <option>Harry Potter</option>
+                                <option>Lord of the Rings</option>
+                                <option>Planet of the Apes</option>
+                                <option>Star Trek</option>
+                            </select>
+                        </label>
+                        <label class="form-control w-full max-w-xs">
+                            <select class="select  bg-gray-100 font-semibold">
+                                <option disabled selected class="">Place of return</option>
+                                <option>Star Wars</option>
+                                <option>Harry Potter</option>
+                                <option>Lord of the Rings</option>
+                                <option>Planet of the Apes</option>
+                                <option>Star Trek</option>
+                            </select>
+                        </label>
+                        <div class="relative w-full ">
+                            <label for="" class="font-semibold px-2">Rental date</label>
+                            <input type="date" class=" mt-1 max-w-xs appearance-none w-full bg-gray-100 text-gray-800 text-sm rounded-lg px-4 py-2  focus:outline-none"/>
+                        </div>
+                        <div class="relative w-full mb-10 ">
+                            <label for="" class="font-semibold px-2">Return date</label>
+                            <input type="date" class=" mt-1 max-w-xs appearance-none w-full bg-gray-100 text-gray-800 text-sm rounded-lg px-4 py-2  focus:outline-none"/>
+                        </div>
+                        <button class="bg-orange-400 w-full py-2 rounded-lg text-white font-semibold text-lg">Book Now</button>
                     </form>
                 </div>
             </div>
