@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Wannabe Viacles</title>
 </head>
-<body>
-    <header class="md:mx-24">
+<body class="bg-white">
+    <header class="md:mx-24 bg-white">
          <!-- nav bar start -->
             <div class="navbar bg-white mb-5 ">
             <div class="navbar-start">
@@ -62,7 +62,7 @@
             
     </header>
     <main class=" mx-2 md:mx-24">
-         <section class=" md:my-12 my-10"> 
+         <section class=" md:my-12 my-10 bg-white"> 
                 <h1 class="text-3xl md:text-5xl text-black font-bold text-center">Our All Viacles</h1>
                 <div class="grid md:grid-cols-5 grid-cols-4 gap-5 my-10">
                     <a href="" class="btn  btn-primary">All vehicles</a>
@@ -73,213 +73,120 @@
                     <a href="" class="btn btn-outline btn-primary">Minivan</a>
                 </div>
                 <!-- cars -->
-                  <div class="grid md:grid-cols-3 grid-cols-1 space-y-10">
+                    <!-- cars -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-white lg:my-24">
+                    <!-- card 1 -->
+                    <div class="card bg-base-100 shadow-xl my-3 bg-white">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/bmw1.jpg" alt="Mercedes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                                    <p class="text-black text-sm font-medium">Per Day</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
+                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card bg-base-100 shadow-xl my-3 bg-white">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/bmw2.jpg" alt="Mercedes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl text-blue-600 font-bold">$90</h3>
+                                    <p class="text-black text-sm font-medium">Per Day</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
+                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card bg-base-100 shadow-xl my-3 bg-white">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/bmw1.jpg" alt="Mercedes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl text-blue-600 font-bold">$120</h3>
+                                    <p class="text-black text-sm font-medium">Per Day</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
+                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card bg-base-100 shadow-xl my-3 bg-white">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/maecedes1.jpg" alt="Mercedes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
+                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                                    <p class="text-black text-sm font-medium">Per Day</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
+                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="card bg-base-100 shadow-xl my-3 bg-white">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/bmw3.jpg" alt="Mercedes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
+                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                                    <p class="text-black text-sm font-medium">Per Day</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
+                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100 md:w-96 shadow-xl bg-white mx-5">
-                        <figure>
-                            <img src="./img/bmw1.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex align-middle justify-between">
-                                <div class="">
-                                    <h2 class="card-title">BMW</h2>
-                                    <a href="" class="text-black">suv</a>
-                                </div>
-                                <div class="">
-                                    <h1 class="text-blue-600 text-3xl font-bold">$45</h1>
-                                    <p class="text-center">Per Day</p>
-                                </div>
-                            </div>
-                            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, autem!</p>
-    
-                            <button class="btn btn-primary w-full font-bold"> View Details</button>
-                        </div>
-                    </div>
-                    
-
-                  </div>
              </section>
     </main>
     <!-- js link -->
