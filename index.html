@@ -11,58 +11,54 @@
         <title>Wannabe Car Rental</title>
     </head>
     <body class="bg-white">
-        <!-- header start -->
-        <header class="lg:mx-24 mx-5 ">
-            <!-- nav bar start -->
-            <div class="navbar bg-white mb-5 ">
-            <div class="navbar-start">
-                <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
-                <ul
-                    tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./viacle.html">Vehicles</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                </div>
-                <img src="./img/Logo.png" alt="" class="w-44 h-12">
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a class="font-medium" href="index.html">Home</a></li>
-                    <li><a class="font-medium" href="./viacle.html">Vehicles</a></li>
-                    <li><a class="font-medium" href="about.html">About</a></li>
-                    <li><a class="font-medium" href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end flex gap-2">
-                    <div class="">
-                        <i class="fa-solid fa-phone text-xl bg-blue-600 p-2 text-white rounded-full"></i>
-                    </div>
-                        <div class="">
-                            <a href="">Need help ? </a>
-                            <h4 class="font-semibold">+996 247-1680</h4>
+       <!--  Header Start -->
+            <header class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+                <div class="navbar ">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#vehicles">Vehicles</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
                         </div>
+                        <img src="./img/Logo.png" alt="" class="w-44 h-12">
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a class="font-medium" href="#home">Home</a></li>
+                            <li><a class="font-medium" href="#about">About</a></li>
+                            <li><a class="font-medium" href="#vehicles">Vehicles</a></li>
+                            <li><a class="font-medium" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-phone text-xl bg-blue-600 p-2 text-white rounded-full"></i>
+                <div>
+                <p class="text-sm">Need help ?</p>
+                <h4 class="font-semibold text-base">+996 247-1680</h4>
+                </div>
             </div>
             </div>
-            <!-- nav bar end -->
+
+                </div>
+            </header>
+<!-- Fixed Header End -->
+
+        <!-- heder end -->
+        <main class="bg-white">
              <!-- banner start -->
-            <div class="px-5 bg-blue-600 rounded-3xl lg:px-12 justify-around lg:flex py-5">
+            <div id="home" class="px-5 bg-blue-600 rounded-3xl lg:px-12 justify-around lg:flex py-5 lg:mx-24 mx-5 ">
                 <!-- bannar text start -->
                 <div class="my-16  lg:w-1/2 lg:my-32">
                     <h1 class="text-5xl lg:text-6xl text-white font-semibold ">Experience the road like never before</h1>
@@ -117,10 +113,6 @@
                     <!-- form end -->
                 </div>
             </div>
-
-        </header>
-        <!-- heder end -->
-        <main class="bg-white">
             <!-- card start -->
             <div class="lg:mx-24  lg:flex lg:justify-around lg:my-24 bg-white ">
                 <!-- card 1 -->
@@ -155,7 +147,11 @@
                 </div>
             </div>
             <!-- card end -->
+
              <!-- about start -->
+              <div id="about" class="my-10">
+                    <h1 class="lg:text-5xl text-3xl font-bold text-black text-center">About Us</h1>
+                </div>
               <div class="lg:mx-24  lg:flex lg:justify-around lg:my-24 bg-white items-center ">
                 <div class=" lg:w-1/2 p-5">
                     <img class="lg:w-10/12 rounded-lg" src="./img/about.webp" alt="">
@@ -192,16 +188,33 @@
                         <p class="text-black text-lg">Non amet fermentum est in enim at sit ullamcorper. Sit elementum rhoncus nullam feugiat. Risus sem fermentum</p> 
                    </div>
                    </div>
-                   
-                   
                 </div>
                 </div>
               </div>
               <!-- about end -->
+               <!-- about vedio  -->
+               <section class="flex justify-center items-center px-4 sm:px-8 lg:px-24 py-10">
+                    <div class="w-full max-w-7xl">
+                        <div class="relative pb-[56.25%] h-0">
+                        <iframe 
+                            class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                            src="https://www.youtube.com/embed/YAFUyPp_238" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                        </div>
+                    </div>
+                </section>
+
+
+               <!-- about vedio end -->
+
              <!-- car product start -->
-              <div class="">
+              <div id="vehicles" class="">
                 <!-- text -->
-                  <div class="lg:mx-32 mx-5 mb-16 lg:flex justify-between items-end mb:my-20 ">
+                  <div class="lg:mx-32 mx-5 mb-16 lg:flex justify-between items-end lg:my-20 my-10">
     
                     <h1 class="lg:text-5xl text-3xl font-bold text-black">Choose the car that <br>suits you</h1>
                     <div class="flex gap-3 lg:mt-0 mt-7">
@@ -210,138 +223,235 @@
                   </div>
                   <!-- cars -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-white lg:mx-24 lg:my-24">
-                    <!-- card 1 -->
+                    <!-- Card -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/bmw1.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/bmw2.jpg" alt="Mercedes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$90</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <!-- Button to open modal -->
+                        <label for="details-modal" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
-                    <!-- card 2 -->
+                    </div>
+                    <!-- Modal input (hidden checkbox) -->
+                    <input type="checkbox" id="details-modal" class="modal-toggle" />
+                    <!-- Modal content -->
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="details-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">Mercedes SUV Details</h3>
+                        <p class="mb-4">
+                        This Mercedes SUV offers luxury, performance, and safety with the latest technology features.
+                        Comfortable seating for 5 and advanced driver assistance systems ensure a smooth ride.
+                        </p>
+                        <p>
+                        Price: <span class="font-bold text-blue-600">$90 per day</span>
+                        </p>
+                    </div>
+                    </div>
+                 <!-- card 3 -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/bmw2.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$90</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/bmw3.jpg" alt="Mercedes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$120</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <!-- Open modal button -->
+                        <label for="modal-3" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
-                    <!-- card 3 -->
+                    </div>
+                    <!-- Modal 3 -->
+                    <input type="checkbox" id="modal-3" class="modal-toggle" />
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">Mercedes SUV Details</h3>
+                        <p class="mb-4">
+                        This Mercedes SUV offers luxury, performance, and safety with the latest technology features.
+                        Comfortable seating for 5 and advanced driver assistance systems ensure a smooth ride.
+                        </p>
+                        <p>Price: <span class="font-bold text-blue-600">$120 per day</span></p>
+                    </div>
+                    </div>
+                 <!-- card 3 -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/bmw1.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$120</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/bmw1.jpg" alt="Mercedes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">Mercedes</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$120</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <!-- Open modal button -->
+                        <label for="modal-3" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
+                    </div>
+                    <!-- Modal 3 -->
+                    <input type="checkbox" id="modal-3" class="modal-toggle" />
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">Mercedes SUV Details</h3>
+                        <p class="mb-4">
+                        This Mercedes SUV offers luxury, performance, and safety with the latest technology features.
+                        Comfortable seating for 5 and advanced driver assistance systems ensure a smooth ride.
+                        </p>
+                        <p>Price: <span class="font-bold text-blue-600">$120 per day</span></p>
+                    </div>
+                    </div>
+
                     <!-- card 4 -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/maecedes1.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/maecedes1.jpg" alt="BMW" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <label for="modal-4" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
+                    </div>
+                    <!-- Modal 4 -->
+                    <input type="checkbox" id="modal-4" class="modal-toggle" />
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="modal-4" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">BMW SUV Details</h3>
+                        <p class="mb-4">
+                        The BMW SUV combines sporty handling with luxury features, including advanced infotainment and premium interiors.
+                        </p>
+                        <p>Price: <span class="font-bold text-blue-600">$100 per day</span></p>
+                    </div>
+                    </div>
+
                     <!-- card 5 -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/bmw3.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/bmw3.jpg" alt="BMW" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <label for="modal-5" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
+                    </div>
+                    <!-- Modal 5 -->
+                    <input type="checkbox" id="modal-5" class="modal-toggle" />
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="modal-5" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">BMW SUV Details</h3>
+                        <p class="mb-4">
+                        Stylish and reliable BMW SUV with comfortable interiors and high-end safety features.
+                        </p>
+                        <p>Price: <span class="font-bold text-blue-600">$100 per day</span></p>
+                    </div>
+                    </div>
+
                     <!-- card 6 -->
                     <div class="card bg-base-100 shadow-xl my-3 bg-white">
-                        <figure class="px-10 pt-10">
-                            <img src="./img/bmw2.jpg" alt="Mercedes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body">
-                            <div class="flex justify-between items-center">
-                                <div>
-                                    <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
-                                    <p class="text-gray-500 text-lg font-medium">SUV</p>
-                                </div>
-                                <div>
-                                    <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
-                                    <p class="text-black text-sm font-medium">Per Day</p>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                <p class="text-center text-black font-medium"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!</p>
-                                <button class="btn btn-primary mt-6 text-white text-lg w-full">View Details</button>
-                            </div>
+                    <figure class="px-10 pt-10">
+                        <img src="./img/bmw2.jpg" alt="BMW" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex justify-between items-center">
+                        <div>
+                            <h2 class="card-title text-black text-2xl font-semibold">BMW</h2>
+                            <p class="text-gray-500 text-lg font-medium">SUV</p>
+                        </div>
+                        <div>
+                            <h3 class="text-4xl text-blue-600 font-bold">$100</h3>
+                            <p class="text-black text-sm font-medium">Per Day</p>
+                        </div>
+                        </div>
+                        <div class="mt-5">
+                        <p class="text-center text-black font-medium">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo natus provident ex dolorem. Et, voluptatem!
+                        </p>
+                        <label for="modal-6" class="btn btn-primary mt-6 text-white text-lg w-full cursor-pointer">View Details</label>
                         </div>
                     </div>
+                    </div>
+                    <!-- Modal 6 -->
+                    <input type="checkbox" id="modal-6" class="modal-toggle" />
+                    <div class="modal">
+                    <div class="modal-box relative">
+                        <label for="modal-6" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                        <h3 class="text-xl font-bold mb-4">BMW SUV Details</h3>
+                        <p class="mb-4">
+                        Another BMW SUV variant with premium comfort and powerful engine for an excellent driving experience.
+                        </p>
+                        <p>Price: <span class="font-bold text-blue-600">$100 per day</span></p>
+                    </div>
+                    </div>
+
                 </div>
 
               </div>
@@ -428,7 +538,47 @@
                     </div>
                  </section>
                  <!-- start the car end -->
+                  <!-- form -->
+                   <section id="contact" class="bg-gray-50 lg:mx-24 mx-5 pt-10 rounded-xl">
+                       <div id="about" class="lg:mb-10 mb-5">
+                        <h1 class="lg:text-5xl text-3xl font-bold text-black text-center">Contact Us</h1>
+                    </div>
+                       <div class="bg-[#6C3EF1] p-6 sm:p-8 rounded-lg w-full max-w-md mx-auto text-white">
+                            <h2 class="text-xl font-semibold text-center mb-6">Book your car</h2>
+                            
+                            <form class="space-y-4">
+                                <select class="w-full p-3 rounded-md bg-[#7b50f2] text-white focus:outline-none">
+                                <option selected disabled>Car type</option>
+                                <option>Sedan</option>
+                                <option>SUV</option>
+                                <option>Truck</option>
+                                </select>
+    
+                                <select class="w-full p-3 rounded-md bg-[#7b50f2] text-white focus:outline-none">
+                                <option selected disabled>Place of rental</option>
+                                <option>Dhaka</option>
+                                <option>Chittagong</option>
+                                </select>
+    
+                                <select class="w-full p-3 rounded-md bg-[#7b50f2] text-white focus:outline-none">
+                                <option selected disabled>Place of return</option>
+                                <option>Dhaka</option>
+                                <option>Khulna</option>
+                                </select>
+    
+                                <input type="date" class="w-full p-3 rounded-md bg-[#7b50f2] text-white focus:outline-none" placeholder="Rental date">
+    
+                                <input type="date" class="w-full p-3 rounded-md bg-[#7b50f2] text-white focus:outline-none" placeholder="Return date">
+    
+                                <button type="submit" class="w-full py-3 bg-orange-400 text-white font-semibold rounded-md hover:bg-orange-500 transition">
+                                Book now
+                                </button>
+                            </form>
+                        </div>
+                   </section>
+                   
 
+                   <!-- form end -->
         </main>
         <footer class="">
             <section class="lg:mx-24 mx-5  lg:flex lg:justify-between lg:my-24 my-16 bg-white  ">
